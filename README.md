@@ -19,6 +19,6 @@ This project is a static website powered by Jekyll, tailored to highlight my pro
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/jekyll-portfolio-site.git
-   cd jekyll-portfolio-site
+   git clone https://github.com/FacundoForcada/FacundoForcada.github.io.git
+   cd FacundoForcada.github.io
    ```
