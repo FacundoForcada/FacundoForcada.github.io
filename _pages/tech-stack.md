@@ -17,13 +17,19 @@ Below are the main technologies and tools I have experience with:
 
 | Technology         | Expertise (1-5) | Years of Experience |
 |--------------------|:---------------:|:------------------:|
-| JavaScript         |        5         |         8          |
-| Python             |        4         |         5          |
-| Ruby on Rails      |        4         |         4          |
-| React              |        5         |         6          |
-| AWS                |        4         |         4          |
-| Docker             |        4         |         3          |
-| Git                |        5         |         8          |
-| ...                |        ...       |        ...         |
-
-*Add or edit technologies, expertise, and years as needed!*
+| Java               |        5         |         6          |
+| .NET Framework     |        5         |         9          |
+| .NET Core          |        5         |         5          |
+| Angular            |        4         |         4          |
+| JavaScript         |        5         |         6          |
+| CSS                |        5         |         6          |
+| HTML               |        5         |         6          |
+| Oracle PL/SQL      |        5         |         4          |
+| MySQL              |        4         |         3          |
+| PostgreSQL         |        4         |         3          |
+| SQL Server         |        5         |         7          |
+| ASP.NET            |        4         |         4          |
+| Git                |        5         |         9          |
+| Bootstrap          |        5         |         6          |
+| React              |        4         |         3          |
+| OpenText Gupta     |        5         |         4          |

@@ -1,8 +1,8 @@
 title: Facundo Forcada Portfolio
 description: >-
-  Software Full-Stack Developer & Technical Lead - Portfolio and Job History
+  Software Full-Stack Developer & Technical Lead: Portfolio and Job History
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # your GitHub Pages URL
+url: "https://FacundoForcada.github.io" # your GitHub Pages URL
 
 # Remote theme
 remote_theme: pages-themes/slate
