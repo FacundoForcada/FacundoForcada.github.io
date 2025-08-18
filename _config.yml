@@ -1,0 +1,51 @@
+title: Facundo Forcada Portfolio
+description: >-
+  Software Full-Stack Developer & Technical Lead - Portfolio and Job History
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # your GitHub Pages URL
+
+# Remote theme
+remote_theme: pages-themes/slate
+
+# Collections for custom post types
+collections:
+  jobs:
+    output: true
+    permalink: /jobs/:name/
+  projects:
+    output: true
+    permalink: /projects/:name/
+  certificates:
+    output: true
+    permalink: /certificates/:name/
+  pages: 
+    output: true
+    permalink: /:name/
+
+# Navigation (optional, for nav bar)
+nav:
+  - title: "About"
+    url: /about/
+  - title: "Job History"
+    url: /job-history/
+  - title: "Personal Projects"
+    url: /personal-projects/
+  - title: "Technology Stack"
+    url: /tech-stack/
+  - title: "Certificates"
+    url: /certificates/
+
+# Plugins (GitHub Pages safe)
+plugins:
+  - jekyll-remote-theme
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Include
+include:
+  - assets/css/custom.css
