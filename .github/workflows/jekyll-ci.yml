@@ -1,11 +1,12 @@
-name: Jekyll CI/CD
+name: Jekyll Build Check
 
 on:
   push:
     branches: [main]
+  pull_request:
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -23,9 +24,3 @@ jobs:
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
