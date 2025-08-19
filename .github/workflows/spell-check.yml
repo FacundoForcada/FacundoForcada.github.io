@@ -1,7 +1,15 @@
 name: Spell Check
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+      - '**/*.html'
   pull_request:
+    branches:
+      - main
     paths:
       - '**/*.md'
       - '**/*.html'
